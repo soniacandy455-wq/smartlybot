@@ -1,16 +1,17 @@
+# Environment variables - KEEP SECRET!
 .env
+.env.local
+.env.*.local
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-.Python
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
 venv/
 env/
 .venv/
-.env.local
-.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
